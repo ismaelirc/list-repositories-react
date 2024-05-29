@@ -1,0 +1,93 @@
+.container_list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1px;
+    height: calc(100vh - 76px);
+    left: 0;
+    overflow-y: scroll;
+    background-color: white;
+}
+
+.container_left{
+    position:relative;
+    width: 20%;
+    height:100%;
+    flex: 20%;
+    background: transparent;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+    padding: .5em;
+}
+
+.input_search input {
+    width: 91%;
+    outline: none;
+    border: none;
+    color: var(--cinza-claro);
+    padding: 5px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 12px;
+    padding-left: 40px;
+    margin: 10px;
+    background: var(--cinza-escuro) url('./assets/search.svg') no-repeat 10px;
+}
+
+.container_repo_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cinza-claro);
+    background-color: var(--cinza-escuro);
+    cursor: pointer;
+}
+
+.container_repo_box_title{
+    margin-top: 3px;
+    font-size: .8rem;
+    display: inline-block;
+}
+
+.container__epo_box_content_info{
+    font-size: .7rem;
+}
+
+.container_repo_box_content{
+    margin: 5px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: space-between;
+}
+
+.container_repo_box_content_footer {
+    display: flex;
+    width: 100%;
+    align-items:flex-start;
+    justify-content:flex-start;
+}
+
+.conteudo_rodape ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    align-items: baseline;
+}
+
+.conteudo_rodape div {
+    flex-grow: 0;
+}
+
+.conteudo_rodape ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    padding: 10px 2px ;
+    font-size: .6rem;
+    cursor: pointer;
+}

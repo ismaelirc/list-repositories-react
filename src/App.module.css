@@ -1,0 +1,12 @@
+.main_container{
+    width: 100%;
+    height: calc(100vh - 0px);
+    display: flex;
+}
+.container_right {
+    position: relative;
+    width: 80%;
+    height: 100vh;
+    flex: 70%;
+    background: #f6820e;
+  }
